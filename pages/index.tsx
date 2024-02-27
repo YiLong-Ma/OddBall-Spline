@@ -26,6 +26,10 @@ export default function Home() {
             <p className={styles.pricingDescription}>✅ See Teams</p>
             <p className={styles.pricingDescription}>✅ See Team/Player Stats</p>
           </div>
+          <div className={styles.spline}>
+            <Spline scene="https://prod.spline.design/cLyi1argVPdJ0i0o/scene.splinecode" />
+          </div>
+
           <div>
             <p className={styles.pricingPrice}>$0/month</p>
             <button className={styles.buyNowButton}>Buy Now</button>
@@ -39,6 +43,9 @@ export default function Home() {
             <p className={styles.pricingDescription}>✅ See Teams</p>
             <p className={styles.pricingDescription}>✅ See Team/Player Stats</p>
             <p className={styles.pricingDescription}>✅ See Betting Odds</p>
+          </div>
+          <div className={styles.spline}>
+            <Spline scene="https://prod.spline.design/FXD5QnF2nt162knE/scene.splinecode" />
           </div>
           <div>
             <p className={styles.pricingPrice}>7.99/month</p>
@@ -54,6 +61,9 @@ export default function Home() {
             <p className={styles.pricingDescription}>✅ See Team/Player Stats</p>
             <p className={styles.pricingDescription}>✅ See Betting Odds</p>
             <p className={styles.pricingDescription}>✅ Game Highlights</p>
+          </div>
+          <div className={styles.spline}>
+            <Spline scene="https://prod.spline.design/pWeQED1fx4ADi8vO/scene.splinecode" />
           </div>
           <div>
             <p className={styles.pricingPrice}>$15/month</p>
