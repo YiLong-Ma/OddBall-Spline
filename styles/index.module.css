@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&display=swap');
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200%;
+    background-color: #FBFFF4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .hero {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 60px;
+  }
+  
+  .heroTitle {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem; 
+    text-align: left;
+    font-family: 'Almarai', sans-serif;
+ }
+  
+.backboard {
+    width: 300px;
+    height: 300px;
+  }
+
+  .heroDescription {
+    font-size: 1.5rem;
+    text-align: left;
+    font-family: 'Almarai', sans-serif;
+  }
+  
+  .imagePlaceholder {
+    width: 100%; 
+    margin-bottom: 20px;
+  }
+  
+  .pricingSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 50px;
+  }
+  
+  .pricingCard {
+    background-color: #ffffff;
+    border: #00A375 3px solid; 
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .pricingTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-family: 'Almarai', sans-serif;
+  }
+  
+  .pricingDescription {
+    margin-bottom: 1rem;
+    font-family: 'Almarai', sans-serif;
+  }
+  
+  .pricingPrice {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-family: 'Almarai', sans-serif;
+  }
+  
+  .buyNowButton {
+    background-color: #FC9F5B;
+    color: #ffffff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: center; 
+    font-family: 'Almarai', sans-serif;
+  }
+  
+  .buyNowButton:hover {
+    background-color: #00A375;
+  }
+  
+.subBanner{
+    background-color: #FC9F5B;
+    border: #FC9F5B 10px solid;
+    width: 100%;
+    display: flex;
+    gap: 25rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    margin-bottom: 1rem;
+}
+
+.subBannerText {
+    font-size: 1rem;
+    margin: 1rem;
+    font-family: 'Almarai', sans-serif;
+}
+
+  
