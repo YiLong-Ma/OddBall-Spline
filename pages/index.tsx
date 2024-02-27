@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Nav from "./components/Nav";
-import styles from "@/styles/index.module.css";
+import styles from "@/styles/Home.module.css";
 import Spline from "@splinetool/react-spline";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -33,7 +34,7 @@ export default function Home() {
 
         <div className={styles.pricingCard}>
           <div>
-            <h2 className={styles.pricingTitle}>All Star (opular)</h2>
+            <h2 className={styles.pricingTitle}>All Star (Popular)</h2>
             <p className={styles.pricingDescription}>✅ View game time</p>
             <p className={styles.pricingDescription}>✅ See Teams</p>
             <p className={styles.pricingDescription}>✅ See Team/Player Stats</p>
@@ -63,14 +64,19 @@ export default function Home() {
 
       <section className={styles.subBanner}>
         <div className={styles.subBannerText}>
-          <h2>Sub Banner Title</h2>
-          <p>This is the sub banner description text. You can add any information here.</p>
+          <h2>More About OddBall</h2>
+          <p>OddBall guarantees highest quality of content related to NBA, whether it is
+            stats or game highlights. We also provide betting odds for the games. Everything is
+            live and up to date. We have a team of experts who are constantly updating the content
+            to provide the best experience for our users. We also have a dedicated customer service.
+          </p>
         </div>
         <div className={styles.subBannerImage}>
           <Image src="/images/OddBall.png" alt="Football" width={150} height={50} />
         </div>
       </section>
-      
+
+      <Footer />
     </main>
   );
 }
